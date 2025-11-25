@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Iceland&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Iceland&family=Smooch+Sans:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    background-color: blueviolet;
+    height: 80px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header span{    
+    margin-left: 20px;
+    font-family: "Audiowide", sans-serif;
+}
+
+header a{
+    color: rgb(232, 188, 225);
+    
+}
+
+footer{
+    bottom: 0;
+    background-color: black;
+    color: white;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    text-align: center
+
+}
+
+footer h4 {
+    margin-top: 20px;
+
+}
+
+footer #icons {
+    margin-top: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style-type: none;
+    font-family: "Iceland", sans-serif;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+a button{
+    margin-right: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: darkslateblue;
+    color: aliceblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 60px;
+    font-family: "Iceland", sans-serif;
+
+}
+
+a button:hover{
+    background-color: rgb(112, 112, 165);
+    color: black;
+    
+}
+
+.grid-container {
+    font-family: "Smooch Sans", sans-serif;
+    display: grid;
+    grid-template-columns: 100% 1r;
+    grid-template-rows: 100% 1r;
+    gap: 10px;
+    margin-top: ;
+}

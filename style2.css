@@ -1,0 +1,31 @@
+h1{
+    color: darkgreen;
+    margin-top: 30px;
+    border: solid 1px black;
+    width: 150px;
+}
+#titulo{
+    font-size: large;
+
+
+}
+
+.link{
+    color: greenyellow;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+#button-click{
+    display: flex;
+    background-color: black;
+    width: 100px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    cursor: pointer;
+    position: relative;
+
+}
+
